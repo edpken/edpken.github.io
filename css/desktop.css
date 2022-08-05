@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    user-select: none;
+    -webkit-uer-select: none;
+}
+
+@media screen and (min-width:516px) {
+    /*pc用のcssを記述*/
+    
+
+
+ul {
+    list-style-type: none;
+  }
+
+.header:link, .header:visited, .header:active{
+    color:  white;
+}
+
+.ul-header-index, .ul-header-exhibition, .ul-header-In-Preparation{
+    color: #000;
+    text-decoration: none;
+}
+
+.main-text-jp{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.main-news, .main-news:visited, .main-news:active, .main-news:link{
+    color: #000;
+    text-decoration: #000;
+}
+
+
+  /* ｛（iconとtitleの半分）を横並びにし、それと（titleの半分）｝を横１列で並ばせる。 */
+
+.inline-block-title-icon1, .inline-block-title-icon2{
+    display: flex;
+    background-color: rgb(36, 109, 192);
+    padding-left: 5px;
+}
+
+div.title-icon{
+    background-color: rgb(36, 109, 192);
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+div.title-text1, div.title-text2{
+    background-color: rgb(36, 109, 192);
+    padding-top: 15px;
+}
+div.title-text2{
+    padding-left: 10px;
+}
+
+h1{
+    background-color: rgb(36, 109, 192);
+    font-family: 'Sawarabi Mincho', serif;
+    text-align: black;
+}
+
+.container{
+    text-align: left;
+    background:rgb(36, 109, 192);
+}
+
+
+ul {
+    list-style-type: none;
+  }
+
+  .item-wrap{
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 15px;
+  }
+
+  .item01, .item02, .item03{
+    width: 100px;
+    height: 40px;
+    padding: 12px;
+}
+
+.ul-header-index, .ul-header-exhibition, .ul-header-In-Preparation{
+    color: #000;
+    text-decoration: none;
+
+}
+
+i{
+    color: #fff;
+}
+
+i:hover{
+    color: #000;
+}
+
+.icon-wrap{
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 15px;
+}
+
+.header:link, .header:visited, .header:active{
+    color:  white;
+}
+
+
+div.header-en:hover, div.header-jp:hover{
+    background-color: #000;
+    border: 2px solid #000;
+    color: #fff;
+}
+
+.text{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.item-list{
+        display: flex;
+        min-width: 320px;
+        flex-flow:row wrap;
+        background-color:rgb(36, 109, 192);
+}
+
+div.header-icon{
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+
+/* aタグの日本語,英語表記の書き方 */
+div.header-en, div.header-jp{
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+
+/* aタグの日本語,英語表記のフォントの設定 */
+div.header-en, div.header-jp{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+i{
+    color: #fff;
+}
+
+i:hover{
+    color: #000;
+}
+
+h2{
+    padding-left: 25px;
+}
+
+
+
+.text-main01{
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+.div-text-main01{
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    min-width: 480px;
+    padding-left: 25px;
+}
+
+
+.text-main02{
+    font-family: 'Kaisei Decol', serif;
+    font-size: large;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+.div-text-main02{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    min-width: 480px;
+    padding-left: 10px;
+}
+
+
+
+/* 部活について、活動時間・活動場所のフォント */
+#main1, #main2{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* ここから枠内のデザイン */
+
+.spare{
+    margin-top: -15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* ここまで枠内のデザイン */
+
+
+
+/* ここから枠のデザイン */
+
+/* spare-box01 */
+.spare-box01{
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: dotted 2px black;
+    border-bottom: dotted 2px black;
+    width: 400px;
+}
+.spare-box01:before {left: 10px;}
+.spare-box01:after {right: 10px;}
+
+.spare-box01:before, .spare-box01:after{
+    content: '';
+    position: absolute;
+    top: -15px;
+    width: 1px;
+    border-left: dotted 2px;
+    height: -webkit-calc(100% + 30px);
+    height: calc(100% + 30px);
+}
+
+
+/* spare-box02 */
+.spare-box02{
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: dotted 2px black;
+    border-bottom: dotted 2px black;
+    width: 400px;
+}
+.spare-box02:before {left: 10px;}
+.spare-box02:after {right: 10px;}
+
+.spare-box02:before, .spare-box02:after{
+    content: '';
+    position: absolute;
+    top: -15px;
+    width: 1px;
+    border-left: dotted 2px;
+    height: -webkit-calc(100% + 30px);
+    height: calc(100% + 30px);
+}
+
+/* ここまで枠のデザイン */
+
+
+
+#video::after{
+    word-wrap: none;
+    font-family: 'Sawarabi Mincho', serif;
+    content: "\A もともと、サークルオリエンテーションのために作られた動画です。 \A 急遽、中止になったため、未公開のままになってしまうのは、嫌なのでweb公開します！ \A ※ この動画は、discordなどを用いてオンラインで話しながら制作しました。 \A\A";
+    white-space: pre;
+    font-size: large;
+
+}
+
+#video {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+#video iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(174, 177, 181, 0.605);
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Sawarabi Mincho', serif;
+
+}
+
+ul.footer-menu li {
+    border-right: 1px solid rgb(11, 12, 13);
+    display: inline;
+    margin-right: 7px;
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+a.ul-footer{
+    
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+ul.footer-menu li:last-child {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+a.ul-footer{
+    color: rgba(92, 91, 91, 0.954);
+    text-decoration: none;
+    text-align: center;
+}
+
+div.preparation-html01{
+    min-width: 320px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Sawarabi Mincho', serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+div.preparation-html02{
+    min-width: 320px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Sawarabi Mincho', serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* ここから動画の下記コメントデザイン　*/
+
+div.div-video-title{
+    padding-left: 20px;
+    font-size: 35px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+div.wrap-div-video-content{
+    display: block;
+    width: 80%;
+    height: 50%;
+    padding-left: 20px;
+    overflow: scroll;
+    max-width: 1024px;
+
+}
+
+div.div-video-content01{
+    display: flex;
+    flex-wrap: row wrap;
+    font-size: 22px;
+    font-family: 'Klee One', cursive;
+    overflow: scroll;
+    }
+div.div-video-content02{
+    display: flex;
+    flex-wrap: row wrap;
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: 'Klee One', cursive;
+    overflow: scroll;
+    }
+
+/* ここまで動画の下記コメントデザイン　*/
+    
+.movie-wrap {
+    position: relative;
+    padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+    height: 0;
+    overflow: hidden;
+}
+
+.movie-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.privacy-policy01{
+    padding-left: 15px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.privacy-policy-links{
+    font-size: 18px;
+    padding-bottom: 30px;
+    
+}
+
+.privacy-policy02{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    padding-bottom: 20px;
+
+}
+
+.news-html{
+    margin: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.news-text{
+    font-size: 18px;
+
+}
+
+.news-pdf{
+    font-size: 18px;
+}
+
+.news-text-span{
+    font-size: 20px;
+
+}
+
+.news-text-bule{
+    color: blue;
+}
+
+
+/* 入部検討の方へのボタン */
+div.add-button-jp{
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+    list-style-type: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+div.add-button-jp:hover{
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+a.add-button-newmember{
+    background-color: #000;
+    text-decoration: none;
+}
+
+div.add-button{
+    width: 120px;
+    height: 60px;
+    margin: 11px;
+    text-align: center;
+}
+
+/* 「入部検討の方へ」のメッセージ(tb-newmember01) */
+.tb-newmember01{
+    position: relative;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-bottom: 200px;
+    height: 0;
+    overflow: scroll;
+}
+
+#text-newmember01{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Sawarabi Mincho', serif;
+}
+.news-pdf{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+/*可*/
+#logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: allfill .5s ease forwards 7s;
+
+}
+/*能*/
+#logo path:nth-child(2){
+    stroke-dasharray: 1059;
+    stroke-dashoffset: 1059;
+    animation: line-anim 2s ease forwards;
+}
+/*性*/
+#logo path:nth-child(3){
+    stroke-dasharray: 1207;
+    stroke-dashoffset:1207;
+    animation: line-anim 2.5s ease forwards .4s;
+}
+/*だ*/
+#logo path:nth-child(4){
+    stroke-dasharray: 1045;
+    stroke-dashoffset: 1045;
+    animation: line-anim 2s ease forwards .8s;
+}
+/*け*/
+#logo path:nth-child(5){
+    stroke-dasharray: 1056;
+    stroke-dashoffset: 1056;
+    animation: line-anim 1.6s ease forwards 1.2s;
+}
+/*を*/
+#logo path:nth-child(6){
+    stroke-dasharray: 1008;
+    stroke-dashoffset: 1008;
+    animation: line-anim 2s ease forwards 1.6s;
+}
+/*秘*/
+#logo path:nth-child(7){
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: line-anim 2s ease forwards 2s;
+}
+/*め*/
+#logo path:nth-child(8){
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    animation: line-anim 1s ease forwards 2.4s;
+}
+/*た*/
+#logo path:nth-child(9){
+    stroke-dasharray: 564;
+    stroke-dashoffset: 564;
+    animation: line-anim 2s ease forwards 2.8s;
+}
+/*君*/
+#logo path:nth-child(10){
+    stroke-dasharray: 694;
+    stroke-dashoffset: 694;
+    animation: line-anim 1s ease forwards 3.2s;
+}
+/*た*/
+#logo path:nth-child(11){
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: line-anim 2s ease forwards 3.6s;
+}
+/*ち*/
+#logo path:nth-child(12){
+    stroke-dasharray: 629;
+    stroke-dashoffset: 629;
+    animation: line-anim 1.2s ease forwards 4s;
+}
+/*へ*/
+#logo path:nth-child(13){
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: line-anim 1.2s ease forwards 4.8s;
+}
+/*架空(一つ前の「へ」を隠すパス)*/
+#logo path:nth-child(14){
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: line-anim 1s ease forwards 5.0s;
+}
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes allfill{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill: #000000;
+    }
+}
+
+/*ロゴを入れるBOX*/
+
+.box-logo{
+    min-width: 320px;
+    position: relative;
+    padding-bottom: 660px; /*アスペクト比 16:9の場合の縦幅*/
+    height: 0;
+    overflow: hidden;
+}
+
+/* 更新日時表示 */
+.modify{
+    padding-left: 11px;
+}
+
+
+
+
+}
